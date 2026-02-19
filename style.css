@@ -1,0 +1,89 @@
+header
+{
+    background-color:#2196F3;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1
+{
+    color: white;
+    margin: 0;
+
+}
+*
+{
+    font-family: monospace;
+    margin: 0;
+    line-height: 1;
+}
+h1
+{
+    color: rgb(21, 155, 233);
+    font-size: 45px;
+}
+section
+{
+    border-radius: 20px;
+    border: 2px solid grey;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+}
+.button
+{
+    border-radius: 15px;
+    height: 50px;
+    width: 130px;
+
+}
+button:hover
+{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    transform: translateY(-15px);
+
+}
+div a
+{
+     text-decoration: none;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit
+{
+    background-color: #2196F3;
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+}
+form
+{
+    padding: 4px;
+
+}
+section div
+{ 
+    padding: 6px;
+
+}
+main
+{
+    padding: 12px;
+
+}
