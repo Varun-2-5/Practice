@@ -87,15 +87,10 @@ main
     padding: 12px;
 
 }
-@media (max-width: 768px) 
+.profile-img
 {
-    .container 
-    {
-        width: 95%;
-    }
-
-    h1 
-    {
-        font-size: 20px;
-    }
+    
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
