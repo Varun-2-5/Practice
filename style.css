@@ -88,15 +88,14 @@ main
 
 }
 @media (max-width: 768px) 
-{
-    .container 
     {
-        width: 95%;
+    body 
+    {
+        font-size: 14px;
     }
 
-    h1 
+    #about 
     {
-        font-size: 20px;
+        flex-direction: column;
     }
 }
-
