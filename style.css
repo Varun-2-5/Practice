@@ -1,17 +1,18 @@
 header
 {
     background-color:#2196F3;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    text-align: center;
 }
 
 header h1
 {
     color: white;
-    margin: 0;
 
 }
 *
@@ -19,6 +20,8 @@ header h1
     font-family: monospace;
     margin: 0;
     line-height: 1;
+    box-sizing: border-box;
+
 }
 h1
 {
@@ -29,19 +32,24 @@ section
 {
     border-radius: 20px;
     border: 2px solid grey;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
+    padding : 40px 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
     text-align: center;
+}
+#about img
+{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
 }
 .button
 {
     border-radius: 15px;
     height: 50px;
     width: 130px;
+    margin: 8px;
 
 }
 button:hover
@@ -49,7 +57,7 @@ button:hover
     color: white;
     background-color: blue;
     cursor: pointer;
-    transform: translateY(-15px);
+    transform: translateY(-5px);
 
 }
 div a
@@ -87,15 +95,22 @@ main
     padding: 12px;
 
 }
-@media (max-width: 768px) 
+@media (max-width: 768px)
+{
+
+    h1
     {
-    body 
-    {
-        font-size: 14px;
+        font-size: 26px;
     }
 
-    #about 
+    header 
     {
-        flex-direction: column;
+        padding: 30px 15px;
+    }
+
+    .button 
+    {
+        width: 100%;
+        max-width: 250px;
     }
 }
