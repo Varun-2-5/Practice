@@ -99,4 +99,33 @@ main
         flex-direction: column;
     }
 }
+@media (max-width: 768px) 
+{
+  /* Mobile */
+  body 
+  {
+    font-size: 14px;
+    margin: 0px;
+    text-align: center;
+  }
+  img 
+  {
+    height: 150px;
+    width: 150px;
+  }
 
+
+}
+@media (min-width: 1024px) 
+{  
+  /* Laptop */
+  body 
+  {
+    font-size: 18px;
+  }
+    img
+  {
+    height: 500px;
+    width: 500px;
+  }
+}
